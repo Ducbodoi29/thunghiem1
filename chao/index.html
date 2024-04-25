@@ -2,14 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Do You Love Me</title>
+    <title>Thu Phun co yeu Duc ko?</title>
     <style>
+        h1{
+            color: #bb0dc1;
+        }
         body, html {
             height: 100%;
             margin: 0;
             display: flex;
             justify-content: center;
             align-items: center;
+            background-image: url("https://scontent.fhan3-1.fna.fbcdn.net/v/t39.30808-6/431247650_939436514286713_1690145707134584519_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=PeiZNjnuaRUAb7RfVEj&_nc_ht=scontent.fhan3-1.fna&oh=00_AfCN9paCzOptFfwJhLqG-H3LkJvgj30wlsxLbAv5cnsDrw&oe=66303B55");
+            background-size: cover;
         }
 
         .center-text {
@@ -19,15 +24,15 @@
 </head>
 <body>
 <div class="center-text">
-    <h1 style="font-family: Arial">Do you love me?</h1>
-    <button style="width: 60px; height: 30px; font-size: 20px; position: absolute; left: 870px"
-            onclick="replyClick()">Yes</button>
-    <button id ="movingButton" style="width: 60px; height: 30px; font-size: 20px; position: absolute; left: 980px"
-            onmouseover="checkMouse()">No</button>
+    <h1 style="font-size: 150px">Thu Phưn cóa yêu Đức không?</h1>
+    <button style="width: 240px; height: 120px; font-size: 60px; position: absolute; left: 870px"
+            onclick="replyClick()">Cóa</button>
+    <button id ="movingButton" style="width: 240px; height: 120px; font-size: 60px; position: absolute; left: 2000px"
+            onmouseover="checkMouse()">Không</button>
 </div>
 <script>
     function replyClick(){
-        alert("<3");
+        alert("Đức cũng yêu Phưn");
     }
     function checkMouse(){
         var x = Math.floor(Math.random() * window.innerWidth) + 1;
